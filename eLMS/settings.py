@@ -26,9 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'dzn9-26(=j_p-pyj=j@v#a@eht*zs%^+!=u@e%ep0c5qk2yc*t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://kss-lms-2.onrender.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
